@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+
+.btn-menu{
+  display: flex;
+}
+
+.container-user {
+  border: none;
+  border-radius: 3px;
+  padding: 20px;
+  background-color: rgba(52, 63, 52, 0.267);
+  margin-top: 15px;
+}
+
+.header-user {
+  background-color: #242424;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.user-body {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 150px;
+}
+
+.login {
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 40px;
+}
+
+.register {
+  border: none;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 40px;
+  width: 500px;
+}
+
+.card-header-separation{
+  display: flex;
+  justify-content: center;
+  background-color: goldenrod;
+}
+
+.card-body {
+  background-color: gold;
+  color: black;
+}
+
+img {
+  border: 1px solid black;
+  height: 350px;
+  width: 450px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+.container-detail {
+  background-color: goldenrod;
+  margin-top: 50px;
+  color: black;
+}
+
+.header-detail{
+  display: flex;
+  justify-content: center;
+}
+
+.body-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: gold;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px;
+  gap: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  color: black;
+}
+.rigth{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 100px;
+  background-color: whitesmoke;
+  color: black;
+}
+
+.create-header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(49, 49, 49);
+  padding: 10px;
+}
+
+.contact2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.create-container {
+  border: none; 
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #242424;
+}
+
